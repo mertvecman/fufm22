@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* 폰트 */
+
+/* 타이틀 */
+/* font-family: 'Elsie Swash Caps', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap");
+/* font-family: 'Diplomata SC', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap");
+
+/* 본문 */
+/* font-family: 'Homemade Apple', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+/* font-family: 'Indie Flower', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+/* font-family: 'Pixelify Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+/* 꾸밈 */
+/* font-family: 'Libre Barcode 128' */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap");
+
+/* 기본 프리텐다드 */
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* reset */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body,
+div,
+span,
+object,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+em,
+img,
+ins,
+q,
+strong,
+sub,
+sup,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+a,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ul,
+ol,
+li,
+dl {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+a,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+em,
+i,
+address {
+  font-style: normal;
+  font-weight: normal;
+}
+table {
+  border-collapse: collapse;
+}
+img,
+fieldset {
+  border: 0;
+}
+hr,
+legend,
+caption {
+  display: none;
+}
+textarea {
+  resize: none;
+}
+label,
+button {
+  cursor: pointer;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #222;
+  text-decoration: none;
+}
+
+body {
+  overflow-y: scroll;
+  color: #ccc;
+  font-size: 62.5%;
+  font-family: "Pretendard-Regular", 돋움, 굴림;
+  line-height: 1.25em;
+}
+
+/*공통요소*/
+.text-center {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.sr-only {
+  position: absolute;
+  left: -9999px;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
